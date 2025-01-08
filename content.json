@@ -1,0 +1,29 @@
+{
+  "header": {
+    "title": "Welcome to my site",
+    "image": "https://via.placeholder.com/1920x600/007bff/ffffff?text=Slide+1"
+  },
+  "main": {
+    "title": "Welcome to our site",
+    "text": "Welcome to our website. We specialize in creating beautiful websites for our clients.",
+    "videoUrl": "https://www.youtube.com/embed/y_0Orh7YI4I?si=ehuqrtrAhoLNTncz"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "Learn more about our services and what we do."
+  },
+  "gallery": [
+    {
+      "src": "https://via.placeholder.com/1920x600/007bff/ffffff?text=Slide+1",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://via.placeholder.com/1920x600/007bff/ffffff?text=Slide+2",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://via.placeholder.com/1920x600/007bff/ffffff?text=Slide+3",
+      "alt": "Image 3"
+    }
+  ]
+}

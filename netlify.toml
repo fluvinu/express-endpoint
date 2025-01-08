@@ -1,0 +1,7 @@
+[build]
+  functions = "functions"  # Where your serverless functions are stored
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/api"  # Routes all requests to the serverless function
+  status = 200
