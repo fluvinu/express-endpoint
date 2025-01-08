@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Path to the JSON file where content will be stored
-const contentFilePath = path.join('/', 'content.json'); // Now in the /functions directory
+const contentFilePath = path.join('/tmp', 'content.json'); // Now in the /functions directory
 
 // Read content from the JSON file
 const readContentFromFile = () => {
