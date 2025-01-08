@@ -1,5 +1,3 @@
-// /functions/api.js
-
 const express = require('express');
 const serverless = require('serverless-http'); // Import serverless-http
 const fs = require('fs');
@@ -12,12 +10,13 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Path to the JSON file where content will be stored
-const contentFilePath = path.join(__dirname, '../content.json');
+const contentFilePath = path.join(__dirname, 'content.json'); // Now in the /functions directory
 
 // Read content from the JSON file
 const readContentFromFile = () => {
     try {
         const rawData = fs.readFileSync(contentFilePath);
+        console.log('File read successfully');
         return JSON.parse(rawData);
     } catch (error) {
         console.error("Error reading content from file", error);
@@ -57,6 +56,7 @@ const readContentFromFile = () => {
 const writeContentToFile = (updatedContent) => {
     try {
         fs.writeFileSync(contentFilePath, JSON.stringify(updatedContent, null, 2));
+        console.log('File written successfully');
     } catch (error) {
         console.error("Error writing content to file", error);
     }
