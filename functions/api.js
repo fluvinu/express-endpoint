@@ -22,16 +22,16 @@ const readContentFromFile = () => {
         console.error("Error reading content from file", error);
         return {
             "header": {
-                "title": "Welcome to my site",
+                "title": "ERROR CONTACT TO DEVLOPER",
                 "image": "https://via.placeholder.com/1920x600/007bff/ffffff?text=Slide+1"
             },
             "main": {
-                "title": "Welcome to our site",
+                "title": "ERROR CONTACT TO DEVLOPER",
                 "text": "Welcome to our website. We specialize in creating beautiful websites for our clients.",
                 "videoUrl": "https://www.youtube.com/embed/y_0Orh7YI4I?si=ehuqrtrAhoLNTncz"
             },
             "about": {
-                "title": "About Us",
+                "title": "About Us ERROR CONTACT TO DEVLOPER api failwr",
                 "text": "Learn more about our services and what we do."
             },
             "gallery": [
